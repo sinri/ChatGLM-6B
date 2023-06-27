@@ -133,4 +133,7 @@ dmypy.json
 model/
 .idea
 
+wsl-venv/
+
 workspace/debug/
+workspace/**/output
