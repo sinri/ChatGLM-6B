@@ -6,3 +6,9 @@ gradio
 mdtex2html
 sentencepiece
 accelerate
+
+# below for train with P-Tuning v2
+rouge_chinese
+nltk
+jieba
+datasets
