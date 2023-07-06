@@ -1,4 +1,5 @@
 import os
+import time
 from typing import List, Tuple, Optional
 
 import torch
@@ -67,7 +68,9 @@ class ChatGLM6BWrapper:
             if query.strip() == '':
                 break
 
+            print(f'[{time.time()}] request')
             r = self.chat(query)
+            print(f'[{time.time()}] responded')
             print(f'< {r}')
 
             if not keep_history:
