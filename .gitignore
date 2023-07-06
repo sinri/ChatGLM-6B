@@ -135,6 +135,7 @@ model/
 
 wsl-venv/
 
+workspace/env.py
 workspace/debug/
 workspace/**/input
 workspace/**/output
